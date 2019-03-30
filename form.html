@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!--career objective-->
+      <div class="career">
+        <label for="career">
+          <h1>Career objective</h1>
+        <input type="text" name="career" id="career" placeholder="career objective">
+        </label>
+      </div
+      <!-- personal info -->
+      <div class="details">
+        <h1>Personal Details</h1>
+
+        <input type="text" name="details" id="name" placeholder="Enter name">
+        <br>
+        <input type="number" name="details" id="mobile" placeholder="number">
+        <br>
+        <input type="email" name="details" id="email" placeholder="enter email">
+        <br>
+        <input type="text" name="details" id="place" placeholder="place">
+        <br>
+
+      </div>
+      <!-- education details -->
+      <div class="gdiv">
+        <h1>Graduation details</h1>
+        <label for="ginst">
+          <select id="ginst">
+            <option>select institute</option>
+            <option>MITS</option>
+            <option>svtm</option>
+            <option>ACEM</option>
+            <option>GVIC</option>
+
+          </select>
+          <br>
+        </label>
+        <!-- branch -->
+        <br>
+        <select id="gbranch">
+          <option>SELECT BRANCH</option>
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>MECH</option>
+        </select>
+        <!-- year of passing-->
+        <br>
+        <select id="gyear">
+          <option>SELECT year</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+        </select>
+        <br>
+        <input type="number" name="percentage" id="gper" placeholder="percentage">
+        </div>
+        <div class="idiv">
+        <h1>Intermediate details</h1>
+        <label for="iinst">
+          <select id="iinst">
+            <option>select institute</option>
+            <option>BJC</option>
+            <option>KRSC</option>
+            <option>SJC</option>
+            <option>GVIC</option>
+
+          </select>
+        </label>
+        <br>
+        <!-- branch -->
+        <select id="ibranch">
+          <option>SELECT Group</option>
+          <option>MPC</option>
+          <option>BIPC</option>
+          <option>MEC</option>
+        </select>
+        <br>
+        <!-- year of passing-->
+        <select id="iyear">
+          <option>SELECT year</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+        </select>
+        <br>
+        <input type="number" name="percentage" id="iper" placeholder="percentage">
+        </div>
+        <div class="sdiv">
+        <h1>SSC details</h1>
+        <label for="sinst">
+          <select id="sinst">
+            <option>select SCHOOL</option>
+            <option>SVN</option>
+            <option>svtm</option>
+            <option>BES</option>
+            <option>GVIC</option>
+
+          </select>
+        </label>
+        <br>
+        <!-- year of passing-->
+        <select id="syear">
+          <option>SELECT year</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+        </select>
+        <br>
+        <input type="number" name="percentage" id="sper" placeholder="percentage">
+      </div>
+
+
+      <!-- skills -->
+      <div class="skills">
+      <h1>Skills</h1>
+      <label for="skills">
+      <input type="text" name="skills" id="skills" placeholder="enter skills" >
+      </label>
+      </div>
+    </div>
+    <button type="button" name="button" id="button" onclick="submitData()"><b>submit</b></button>
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>

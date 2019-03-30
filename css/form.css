@@ -1,0 +1,53 @@
+body{
+  background-color: #95A5A6;
+}
+.parent{
+width:90%;
+border : 2px solid white;
+margin : 1%;
+padding : 3%;
+display: flex;
+flex-wrap: wrap;
+}
+.career{
+  width :90%;
+  margin : 2%;
+  padding: 2%;
+  background-color: #E67E22;
+  border : 2px solid black;
+  text-align: center;
+}
+.details{
+  width :41%;
+  margin : 2%;
+  padding: 2%;
+  background-color: #E67E22;
+  border : 2px solid black;
+  text-align: center;
+}
+.gdiv,.idiv,.sdiv{
+  width :41%;
+  margin : 2%;
+  padding: 2%;
+  background-color: #E67E22;
+  border : 2px solid black;
+  text-align: center;
+}
+.skills{
+  width :90%;
+  margin : 2%;
+  padding: 2%;
+  background-color: #E67E22;
+  border : 2px solid black;
+  text-align: center;
+}
+#button{
+  font-size : 20 px;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+}
+input,select{
+  width : 80%;
+  margin : 2% ;
+}
